@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* โลโก้ซ้าย เมนูขวา */
+  align-items: center;
+  padding: 10px;
+  background: #333;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex; /* เรียงเมนูแนวนอน */
+  list-style: none;
+  gap: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
